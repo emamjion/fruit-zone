@@ -1,0 +1,7 @@
+.meet-background{
+    background: linear-gradient(rgba(18, 18, 18, 0.70), rgba(18, 18, 18, 0.70)),url(../../../assets/images/general/team.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}

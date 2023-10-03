@@ -1,0 +1,26 @@
+[
+    {
+        "id" : "1",
+        "name" : "Ahmed Jahir",
+        "image" : "https://i.ibb.co/KDHQ4Xx/member1.png",
+        "profession" : "Fruits Expert" 
+    },
+    {
+        "id" : "2",
+        "name" : "Safia Chowdhury",
+        "image" : "https://i.ibb.co/Dz7VtLz/member2.png",
+        "profession" : "Fruits Expert" 
+    },
+    {
+        "id" : "3",
+        "name" : "Rakib Hossain",
+        "image" : "https://i.ibb.co/3cj0X5m/member3.png",
+        "profession" : "Fruits Expert" 
+    },
+    {
+        "id" : "4",
+        "name" : "Chaity Alom",
+        "image" : "https://i.ibb.co/hH1NH5k/member4.png",
+        "profession" : "Fruits Expert" 
+    }
+]
