@@ -2,6 +2,7 @@ import React from 'react';
 import Banner from '../Banner/Banner';
 import DealOfTheDay from '../DealOfTheDay/DealOfTheDay';
 import MeetTheTeam from '../MeetTheTeam/MeetTheTeam';
+import ChooseUs from '../ChooseUs/ChooseUs';
 
 const Home = () => {
     return (
@@ -15,6 +16,10 @@ const Home = () => {
             
             {/* Meet the team section */}
             <MeetTheTeam/>
+            
+            
+            {/* Meet the team section */}
+            <ChooseUs/>
         </div>
     );
 };

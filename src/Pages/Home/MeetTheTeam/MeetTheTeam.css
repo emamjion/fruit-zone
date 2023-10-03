@@ -5,3 +5,8 @@
     background-size: cover;
     height: 700px;
 }
+@media screen and (max-width: 600px) {
+    .meet-background{
+        height: 100%;
+    }
+}

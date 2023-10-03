@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import logo from '../../../assets/images/logo/logo.png'
 import { BsSearch } from "react-icons/bs";
 import { HiMenu } from "react-icons/hi";
@@ -18,10 +18,10 @@ const Header = () => {
     return (
         <nav className=''>
             <div className='md:flex items-center justify-between bg-[#F85559] py-4 md:px-10 px-7 md:rounded-[50px]'>
-                <div className='flex items-center gap-2 text-2xl text-white font-semibold cursor-pointer'>
+                <Link to='/' className='flex items-center gap-2 text-2xl text-white font-semibold cursor-pointer'>
                     <img src={logo} />
                     <h1>Fruit Zone</h1>
-                </div>
+                </Link>
                 <div onClick={() => setOpen(!open)} className='text-3xl text-white absolute right-8 top-6 cursor-pointer md:hidden'>
                     {open? < FaTimes /> : < HiMenu />}
                 </div>
