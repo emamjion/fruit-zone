@@ -8,21 +8,21 @@ import { FaTimes } from "react-icons/fa";
 const Header = () => {
     const links = [
         {name: 'Home', links: '/'},
-        {name: 'Abou Us', links: '/about'},
+        {name: 'About Us', links: '/about'},
         {name: 'Shop', links: '/shop'},
         {name: 'Blogs', links: '/blogs'},
-        {name: 'All Fruits', links: '/all-fruits'}
+        {name: 'Contact Us', links: '/contact'}
     ]
     const [open, setOpen] = useState(false);
     
     return (
         <nav className=''>
-            <div className='md:flex items-center justify-between bg-[#F85559] py-4 md:px-10 px-7 md:rounded-[50px]'>
-                <Link to='/' className='flex items-center gap-2 text-2xl text-white font-semibold cursor-pointer'>
+            <div className='md:flex items-center justify-between md:bg-[#F85559] py-4 md:px-10 px-7 md:rounded-[50px]'>
+                <Link to='/' className='flex items-center gap-2 text-2xl md:text-white font-semibold cursor-pointer'>
                     <img src={logo} />
                     <h1>Fruit Zone</h1>
                 </Link>
-                <div onClick={() => setOpen(!open)} className='text-3xl text-white absolute right-8 top-6 cursor-pointer md:hidden'>
+                <div onClick={() => setOpen(!open)} className='text-3xl md:text-white absolute right-8 top-6 cursor-pointer md:hidden'>
                     {open? < FaTimes /> : < HiMenu />}
                 </div>
                 <ul className={`md:flex md:items-center md:pb-0 pb-6 bg-[#F85559] absolute md:static md:z-auto z-50 left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 opacity-100' : 'top-[-490px] md:opacity-100 opacity-0'} `}>

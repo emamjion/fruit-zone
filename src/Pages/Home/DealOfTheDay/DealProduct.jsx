@@ -29,14 +29,14 @@ const DealProduct = () => {
                         <hr className='w-60 mx-auto' />
                         <div className='mt-6'>
                             <h4 className='text-[#535353] mb-6'>{product.name}</h4>
-                            <p className='mb-6'>
+                            <div className='mb-6'>
                                 <Rating
                                     style={{ maxWidth: 140 }}
                                     value={product.rating}
                                     readOnly
                                     className='mx-auto'
                                 />
-                            </p>
+                            </div>
                             <div>
                                 <Link
                                     className='text-[#F85559] font-medium cursor-pointer'

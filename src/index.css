@@ -3,3 +3,8 @@
 @tailwind utilities;
 
 
+
+/* shop Styles */
+.handleGrid{
+    grid-template-columns: 4fr 1fr;
+}

@@ -15,13 +15,13 @@ const Footer = () => {
     ]
     
     return (
-        <div className='mt-24 bg-[#151515] md:h-[400px] flex items-center justify-center md:rounded-lg'>
+        <div className='mt-24 bg-[#151515] md:h-[400px] flex items-center justify-center'>
             <div>
                 <Link to='/' className='flex items-center justify-center mb-12 gap-2 text-2xl text-white font-semibold cursor-pointer mt-6 md:mt-0'>
                     <img src={logo} />
                     <h1>Fruit Zone</h1>
                 </Link>
-                <ul className='md:flex items-center gap-10 text-center md:text-start space-y-4 md:space-y-0'>
+                <ul className='flex items-center justify-center flex-wrap gap-10'>
                     {
                         links.map((link, index) => (
                             <li key={index} className='text-white'>
