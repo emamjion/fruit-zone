@@ -5,7 +5,9 @@
         "name" : "Grape",
         "rating" : "4.5",
         "minPrice" : "12.90",
-        "maxPrice" : "18.40"
+        "maxPrice" : "18.40",
+        "shipping" : "5",
+        "quantity" : "0"
     },
     {
         "id" : "2",
@@ -13,7 +15,9 @@
         "name" : "Mango",
         "rating" : "4",
         "minPrice" : "11.10",
-        "maxPrice" : "16.60"
+        "maxPrice" : "16.60",
+        "shipping" : "7",
+        "quantity" : "0"
     },
     {
         "id" : "3",
@@ -21,7 +25,9 @@
         "name" : "Orange",
         "rating" : "4",
         "minPrice" : "13.63",
-        "maxPrice" : "19.94"
+        "maxPrice" : "19.94",
+        "shipping" : "2",
+        "quantity" : "0"
     },
     {
         "id" : "4",
@@ -29,7 +35,9 @@
         "name" : "Strawberry",
         "rating" : "4.5",
         "minPrice" : "8.14",
-        "maxPrice" : "13.10"
+        "maxPrice" : "13.10",
+        "shipping" : "5",
+        "quantity" : "0"
     },
     {
         "id" : "5",
@@ -37,7 +45,9 @@
         "name" : "Pomegranate",
         "rating" : "4.5",
         "minPrice" : "15.65",
-        "maxPrice" : "21.45"
+        "maxPrice" : "21.45",
+        "shipping" : "4",
+        "quantity" : "0"
     },
     {
         "id" : "6",
@@ -45,7 +55,9 @@
         "name" : "Apple",
         "rating" : "4.5",
         "minPrice" : "14.50",
-        "maxPrice" : "25.70"
+        "maxPrice" : "25.70",
+        "shipping" : "3",
+        "quantity" : "0"
     },
     {
         "id" : "7",
@@ -53,7 +65,9 @@
         "name" : "Red Dragon",
         "rating" : "4.5",
         "minPrice" : "10.15",
-        "maxPrice" : "17.65"
+        "maxPrice" : "17.65",
+        "shipping" : "5",
+        "quantity" : "0"
     },
     {
         "id" : "8",
@@ -61,6 +75,8 @@
         "name" : "Banana",
         "rating" : "5",
         "minPrice" : "12.10",
-        "maxPrice" : "18.60"
+        "maxPrice" : "18.60",
+        "shipping" : "5",
+        "quantity" : "0"
     }
 ]

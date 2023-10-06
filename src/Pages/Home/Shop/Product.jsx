@@ -19,7 +19,7 @@ const Product = ({products, handleAddToCart}) => {
                             className='border p-6 text-center relative'
                             key={product.id}
                         >
-                            <img src={product.image} className='mx-auto my-4' />
+                            <img src={product.image} className='mx-auto my-4' />      
                             <div className='text-lg font-medium mb-6'>
                                 <span className='ml-2'>${product.maxPrice}</span>
                             </div>
@@ -35,7 +35,7 @@ const Product = ({products, handleAddToCart}) => {
                                     />
                                 </div>
                                 <div className='absolute bottom-2 left-0 right-0'>
-                                    <button onClick={() => handleAddToCart(product.id)} className='font-medium px-3 py-2 md:px-6 md:py-3 text-white bg-[#F85559] rounded-md hover:bg-transparent hover:text-[#f85559] hover:border duration-500 flex items-center gap-3 mx-auto'> <span>< FaShoppingCart /></span>Add To Cart</button>
+                                    <button onClick={() => handleAddToCart(product)} className='font-medium px-3 py-2 md:px-6 md:py-3 text-white bg-[#F85559] rounded-md hover:bg-transparent hover:text-[#f85559] hover:border duration-500 flex items-center gap-3 mx-auto'> <span>< FaShoppingCart /></span>Add To Cart</button>
                                 </div>
                             </div>
                         </div>
