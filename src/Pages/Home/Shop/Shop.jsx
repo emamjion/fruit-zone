@@ -45,9 +45,13 @@ const Shop = () => {
         // save data to localstorage
         addToDb(product.id);
     }
+    const handleClearCart = () => {
+        setCart([]);
+        deleteShoppingCart();
+    }
     
     return (
-        <div className='md:my-24 grid gap-6 handleGrid'>
+        <div className='md:my-24 grid md:gap-6 handleGrid'>
             {/* Product */}
             <div>
                 <Product 
@@ -58,7 +62,10 @@ const Shop = () => {
 
             {/* Order Summary */}
             <div>
-                <OrderSummary cart={cart} />
+                <OrderSummary 
+                    cart={cart}
+                    handleClearCart={handleClearCart}
+                />
             </div>
         </div>
     );

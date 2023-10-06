@@ -1,6 +1,7 @@
 import React from 'react';
+import { FaTrashAlt } from 'react-icons/fa';
 
-const OrderSummary = ({cart}) => {
+const OrderSummary = ({cart, handleClearCart}) => {
     let subTotal = 0;
     let totalShipping = 0;
     let quantity = 0;
@@ -51,6 +52,9 @@ const OrderSummary = ({cart}) => {
                     <h1 className=' text-[#F85559] font-medium'>Total:</h1>
                     <p>$ <span>{total}</span></p>
                 </div>
+            </div>
+            <div className='mt-6'>
+                <button onClick={handleClearCart} className='px-3 py-2 md:px-6 md:py-3 text-white bg-[#F85559] rounded-md flex items-center gap-2 mx-auto'>Clear Cart <span> < FaTrashAlt /> </span></button>
             </div>
         </div>
     );

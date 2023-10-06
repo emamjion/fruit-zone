@@ -23,7 +23,7 @@ const Product = ({products, handleAddToCart}) => {
                             <div className='text-lg font-medium mb-6'>
                                 <span className='ml-2'>${product.maxPrice}</span>
                             </div>
-                            <hr className='w-60 mx-auto' />
+                            <hr className='md:w-60 mx-auto' />
                             <div className='mt-6'>
                                 <h4 className='text-[#535353] mb-6'>{product.name}</h4>
                                 <div className='mb-12'>

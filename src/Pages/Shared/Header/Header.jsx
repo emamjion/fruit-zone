@@ -10,7 +10,7 @@ const Header = () => {
         {name: 'Home', links: '/'},
         {name: 'About Us', links: '/about'},
         {name: 'Shop', links: '/shop'},
-        {name: 'Blogs', links: '/blogs'},
+        {name: 'Orders', links: '/orders'},
         {name: 'Contact Us', links: '/contact'}
     ]
     const [open, setOpen] = useState(false);
