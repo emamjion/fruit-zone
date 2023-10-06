@@ -19,7 +19,7 @@ const Orders = () => {
     }
     
     return (
-        <div className='md:my-24 grid gap-6 handleGrid'>
+            <div className='md:my-24 grid md:gap-6 handleGrid'>
             <div>
                 {
                     cart.map(product => <OrdersInformation 

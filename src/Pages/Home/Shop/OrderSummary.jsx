@@ -20,7 +20,7 @@ const OrderSummary = ({cart, handleClearCart}) => {
     const total = (parseFloat(beforeTotal) - parseFloat(discount)).toFixed(2);
     
     return (
-        <div className='border p-4 sticky top-0 right-0'>
+        <div className=' border p-4 sticky top-0 right-0'>
             <h1 className='text-xl font-semibold'>Order Summary</h1>
             <div>
                 <div className='flex items-center justify-between mt-6'>

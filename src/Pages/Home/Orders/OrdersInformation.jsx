@@ -3,8 +3,8 @@ import { FaTrashAlt } from 'react-icons/fa';
 
 const OrdersInformation = ({product, hadleRemoveFromCart}) => {
     return (
-        <div className='flex items-center justify-between border w-[570px] mx-auto p-4 mb-4'>
-            <div className='flex items-center gap-5'>
+        <div className='md:flex items-center justify-between border md:w-[570px] md:mx-auto p-1 md:p-4 mb-4'>
+            <div className='flex items-center gap-1 md:gap-5'>
                 <img src={product.image} />
                 <div>
                     <h1 className='text-[#F85559]'>{product.name}</h1>
