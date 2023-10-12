@@ -5,6 +5,8 @@ import AboutUs from '../Pages/Home/AboutUs/AboutUs';
 import Shop from '../Pages/Home/Shop/Shop';
 import Orders from '../Pages/Home/Orders/Orders';
 import cartProductsLoader from '../components/Loaders/CartProductsLoader';
+import Login from '../Pages/Login/Login';
+import Register from '../Pages/Register/Register';
 
 
 const router = createBrowserRouter([
@@ -28,6 +30,14 @@ const router = createBrowserRouter([
                 path: '/orders',
                 element: <Orders/>,
                 loader: cartProductsLoader
+            },
+            {
+                path: '/login',
+                element: <Login/>
+            },
+            {
+                path: '/register',
+                element: <Register/>
             }
         ]
     }

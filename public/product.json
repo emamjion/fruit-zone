@@ -7,7 +7,8 @@
         "minPrice" : "12.90",
         "maxPrice" : "18.40",
         "shipping" : "5",
-        "quantity" : "0"
+        "quantity" : "0",
+        "productDes" : "Grapes are a type of fruit that belong to the genus Vitis and are commonly used for making wine, jam, juice, raisins, and various other products."
     },
     {
         "id" : "2",
@@ -17,7 +18,8 @@
         "minPrice" : "11.10",
         "maxPrice" : "16.60",
         "shipping" : "7",
-        "quantity" : "0"
+        "quantity" : "0",
+        "productDes" : "Mangoes are one of the most popular and beloved fruits in the world, known for their sweet and juicy flavor."
     },
     {
         "id" : "3",
@@ -27,7 +29,8 @@
         "minPrice" : "13.63",
         "maxPrice" : "19.94",
         "shipping" : "2",
-        "quantity" : "0"
+        "quantity" : "0",
+        "productDes" : "Oranges are a popular and widely consumed fruit known for their sweet and tangy flavor."
     },
     {
         "id" : "4",
@@ -37,17 +40,19 @@
         "minPrice" : "8.14",
         "maxPrice" : "13.10",
         "shipping" : "5",
-        "quantity" : "0"
+        "quantity" : "0",
+        "productDes" : "Strawberries are sweet, red, heart-shaped berries that are not only delicious but also packed with essential nutrients."
     },
     {
         "id" : "5",
-        "image" : "https://i.ibb.co/SsSnsK9/fruit1.png",
+        "image" : "https://i.ibb.co/rtPcsxZ/fruit5.png",
         "name" : "Pomegranate",
         "rating" : "4.5",
         "minPrice" : "15.65",
         "maxPrice" : "21.45",
         "shipping" : "4",
-        "quantity" : "0"
+        "quantity" : "0",
+        "productDes" : "Pomegranate, scientifically known as Punica granatum, is a unique and ancient fruit with a rich history."
     },
     {
         "id" : "6",
@@ -57,7 +62,8 @@
         "minPrice" : "14.50",
         "maxPrice" : "25.70",
         "shipping" : "3",
-        "quantity" : "0"
+        "quantity" : "0",
+        "productDes" : "Apples are one of the most widely consumed and recognized fruits in the world."
     },
     {
         "id" : "7",
@@ -67,7 +73,8 @@
         "minPrice" : "10.15",
         "maxPrice" : "17.65",
         "shipping" : "5",
-        "quantity" : "0"
+        "quantity" : "0",
+        "productDes" : "Red dragon fruit is not only delicious but also visually striking, making it a popular choice for both culinary and decorative purposes."
     },
     {
         "id" : "8",
@@ -77,6 +84,7 @@
         "minPrice" : "12.10",
         "maxPrice" : "18.60",
         "shipping" : "5",
-        "quantity" : "0"
+        "quantity" : "0",
+        "productDes" : "Bananas are one of the most widely consumed and recognized fruits in the world."
     }
 ]

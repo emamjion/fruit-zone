@@ -36,13 +36,17 @@ const Header = () => {
                             </li>
                         ))
                     }
-                    <div className='relative md:ml-12'>
+                    {/* <div className='relative md:ml-12'>
                     <input 
                         type="text"
                         placeholder='Search Here'
-                        className='border-0 px-5 py-2 rounded-[50px]'
+                        className='border-0 px-5 py-2 rounded-[50px] focus:outline-none'
                     />
                         <span className='absolute md:right-5 right-36 mt-3 z-[1]'> < BsSearch /> </span>
+                    </div> */}
+                    <div className='md:ml-16 md:flex items-center gap-6'>
+                        <p className='mb-4 md:mb-0'>Profile</p>
+                        <Link to='/login' className='font-medium text-white'>Login</Link>
                     </div>
                 </ul>
                 
