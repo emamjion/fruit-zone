@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import FruitProduct from './FruitProduct';
 import Modal from '../../../components/Modal/Modal';
-import { Link } from 'react-scroll';
+import { Rating } from '@smastrom/react-rating';
 
 const DealProduct = () => {
     const [products, setProducts] = useState([]);
     const [visibleFruits, setVisibleFruits] = useState(4);
+    const [singleProduct, setSingleProduct] = useState([]);
     const [showAll, setShowAll] = useState(false);
     const [showModal, setShowModal] = useState(false);
     useEffect(() => {
@@ -13,8 +14,10 @@ const DealProduct = () => {
         .then(res => res.json())
         .then(data => setProducts(data))
     }, [])
-    const handleModal = () => {
+    const handleModal = (id) => {
         setShowModal(true);
+        const specficProduct = products.find(pd => pd.id === id);
+        setSingleProduct(specficProduct);
     }
     
     return (
@@ -34,7 +37,25 @@ const DealProduct = () => {
                 <div>
                     {/* TODO:  */}
                     <Modal isVisible={showModal} onClose={() => setShowModal(false)}>
-                        Hello
+                        <div className='text-center p-6 md:p-12'>
+                            <img src={singleProduct.image} className='mx-auto' />
+                            <div className='mt-6'>
+                                <h1 className='text-3xl font-semibold mb-5'>{singleProduct.name}</h1>
+                                <p className='text-sm text-[#757575]'>{singleProduct.productDes}</p>
+                                <div className='mt-5'>
+                                    <Rating
+                                        style={{ maxWidth: 140 }}
+                                        value={singleProduct.rating}
+                                        readOnly
+                                        className='mx-auto'
+                                    />
+                                </div>
+                                <div className='mt-5'>
+                                    <button className='px-3 py-2 md:px-5 md:py-2.5 text-[#F85559] font-medium border border-[#F85559] rounded-md ' onClick={() => setShowModal(!showModal)}>Close</button>
+                                    <button className='ml-3 px-3 py-2 md:px-5 md:py-2.5 text-white bg-[#F85559] rounded-md '>Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
                     </Modal>
                 </div>
             </div>

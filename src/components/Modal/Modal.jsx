@@ -17,12 +17,12 @@ const Modal = ({ isVisible, onClose, children }) => {
                 className='w-[600px] flex flex-col'
                 
             >
-                <button 
+                {/* <button 
                     className='text-white text-xl place-self-end mb-1'
                     onClick={() => onClose()}
                 >
                     <span className=''> < GrClose /> </span>
-                </button>
+                </button> */}
                 <div className='bg-white p-3 rounded'>
                     {children}
                 </div>

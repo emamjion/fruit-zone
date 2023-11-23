@@ -1,8 +1,6 @@
 import React from 'react';
 import { Rating } from '@smastrom/react-rating';
 import '@smastrom/react-rating/style.css'
-import { Link } from 'react-scroll';
-// import { Link } from 'react-router-dom';
 
 const FruitProduct = ({product, showAll, visibleFruits, handleModal}) => {
     return (
@@ -27,12 +25,10 @@ const FruitProduct = ({product, showAll, visibleFruits, handleModal}) => {
                         />
                     </div>
                     <div>
-                        <Link to={`product/${product.id}`}>
-                            <button
-                                className='text-[#F85559] font-medium cursor-pointer'
-                                onClick={() => handleModal(true)}
-                            >Details</button>
-                        </Link>
+                        <button
+                            className='text-[#F85559] font-medium cursor-pointer'
+                            onClick={() => handleModal(product.id)}
+                        >Details</button>
                     </div>
                 </div>
             </div>
